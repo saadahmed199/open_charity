@@ -1,0 +1,28 @@
+
+name = opencharity
+description = opencharity
+package = Core
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = assets/css/template.css
+stylesheets[all][] = assets/slick/slick-theme.css
+stylesheets[all][] = assets/slick/slick.css
+
+scripts[] = assets/js/jquery-3.2.1.min.js
+scripts[] = assets/js/javascript.js
+scripts[] = assets/slick/slick.js
+
+
+regions[nav] = Navigation bar
+regions[content] = Content
+regions[sub_footer] = Sub Footer
+regions[copyrights] = Copyrights
+
+
+
+; Information added by Drupal.org packaging script on 2018-10-17
+version = "1.0"
+project = "drupal"
+datestamp = "1539816636"
