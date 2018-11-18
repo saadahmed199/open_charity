@@ -20,4 +20,4 @@ Developed with using of views module by overriding views / nodes of differnt con
 
 ## Login Details 
 - username: admin
-- password: admin- 
+- password: admin
