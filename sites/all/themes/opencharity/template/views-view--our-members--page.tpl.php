@@ -53,23 +53,9 @@
 
   <?php if ($rows): ?>
     <section class="members">
-	<?php 
-	$nodes = array();
-
-	$result = db_query("SELECT nid FROM {node} WHERE type = 'our_mission_section_content'");
-	 foreach ($result as $row) {
-	  	  $nodes[] = node_load($row->nid);
-
-    }
-
 	
 	
-	
-	// dpm($nodes);
-	
-	?>
-	
-	<h1> <?php print $nodes[0]->title; ?></h1>
+	<h1> OUR MEMBERS</h1>
 
       <?php print $rows; ?>
     </section>
